@@ -1,0 +1,33 @@
+# Build output and IDE state
+build/
+.vs/
+out/
+*.user
+
+# Third-party material that is not ours to redistribute
+# (Winer's article, the photo of the unit, the Microsemi 1N270 datasheet).
+# Keep local copies for reference only.
+*.pdf
+*.webp
+20171015131713_PhotoLead-WinerMojoMaestro.webp
+201710151327EthanWinerMohoMaestroAXOct2017.pdf
+1n270_datasheet_circuits-diy.pdf
+
+# Staging folder for files awaiting manual deletion
+_to_delete/
+
+# Blender render output and logs (the scene script, layout and masks stay)
+art/out/
+art/log_*.txt
+
+# Render test scripts (not needed to build the faceplate)
+art/knob_hero.py
+art/run_test.ps1
+art/chk.py
+
+# Output of the DSP demo program and Python caches
+*.wav
+__pycache__/
+
+# Fonts for regenerating the silkscreen lettering (Google Fonts, not redistributed here)
+art/fonts/
